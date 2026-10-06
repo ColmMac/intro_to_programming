@@ -11,3 +11,4 @@ class Employee:
 emp1 = Employee("Corey", "Schafer", 50000)
 emp2 = Employee("Test", "User", 60000)
 print(emp1.fullname())
+print(Employee.fullname(emp1))
